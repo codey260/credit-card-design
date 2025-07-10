@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: #e3f2fd;
+  font-family: "Poppins";
+}
+img {
+  width: 50px;
+}
+p,
+span {
+  color: white;
+  font-weight: 400;
+}
+.container {
+  background: url("./images/bg.png") no-repeat;
+  background-size: cover;
+  padding: 25px;
+  width: 450px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+.container .top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.container .top-section .chip {
+  position: relative;
+  top: -5px;
+}
+.container .top-section span {
+  position: relative;
+  top: -10px;
+  margin-left: 10px;
+}
+.container .mid-section {
+  margin-bottom: 10px;
+}
+.container .mid-section .card-number {
+  font-size: 13px;
+}
+.container .mid-section p {
+  font-size: 20px;
+}
+.container .bottom-section {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .bottom-section .card-holder-name {
+  font-size: 17px;
+}
+.container .bottom-section .valid-thru-section .valid-thru {
+  font-size: 13px;
+}
